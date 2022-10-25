@@ -24,7 +24,7 @@ public class Main {
 			Integer m1 = sc.nextInt();
 			String m = Integer.toString(m1);
 
-			//int m1 = Integer.toString(m);
+			
 			stk.push(m);
 
 			System.out.println("Enter Mark for English");
