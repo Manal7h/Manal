@@ -102,6 +102,7 @@ public class Main {
 
 		do {
 			System.out.println("_______________________________________________");
+			System.out.println("_______________________________________________");
 			System.out.println("Select Option");
 			System.out.println("1.Enter Student");
 			System.out.println("2.Print List");
