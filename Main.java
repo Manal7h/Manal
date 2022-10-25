@@ -5,8 +5,20 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.Stack;
+import java.math.BigInteger;
+import java.util.*;
+
 
 public class Main {
+	//Factorial 
+		public static BigInteger factorialNum(int num1) {
+		BigInteger factor = new BigInteger("1");
+		for(int i=2 ; i<= num1 ; i++) {
+			factor= factor.multiply(BigInteger.valueOf(i));
+		}
+		return factor;
+	}
+	
 	public static Stack<String> stk = new Stack<>();
 
 	static Student[] enterStudent(Student std[]) {
